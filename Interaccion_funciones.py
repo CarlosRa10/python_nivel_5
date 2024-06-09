@@ -1,4 +1,4 @@
-from random import shuffle
+from random import *
 #Crear Lista Inicial
 palitos = ['-','--','---','----']
 
@@ -26,3 +26,21 @@ def chequear_intento(lista,intento):
 palitos_mezclados = mezclar(palitos)
 seleccion = probar_suerte()
 chequear_intento(palitos_mezclados,seleccion)
+
+###EXAMEN###
+
+def lanzar_dados():
+    return randint(1,6),randint(1,6)
+
+def evaluar_jugada(dado1,dado2):
+    suma_de_dados = dado1 + dado2
+    if suma_de_dados <= 6:
+        return f"La suma de tus dados es {suma_de_dados}. Lamentable"
+    elif suma_de_dados > 6 and suma_de_dados < 10:
+        return f"La suma de tus dados es {suma_de_dados}. Tienes buenas Chances"
+    else:
+        return f"La suma de tus dados es {suma_de_dados}. parece una jugada ganadora"
+    
+dado1, dado2 = lanzar_dados()
+resultado = evaluar_jugada(dado1,dado2)
+print(resultado)
