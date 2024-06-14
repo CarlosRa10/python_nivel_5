@@ -24,3 +24,31 @@ def contar_primos(numero):
     return len(primos)
 
 print(contar_primos(10))
+
+
+def contar_primos(num):
+    primos = [2]
+    iteracion = 3
+ 
+    if num < 2:
+        return 0
+ 
+    while iteracion <= num:
+        print(f"while i = {iteracion}")
+        for n in range(3,iteracion,2):
+            print(f"For n{n} i {iteracion}")
+            if iteracion % n == 0:
+                print(f"if i={iteracion} % n {n}")
+                iteracion += 2
+                break
+ 
+        else:
+            primos.append(iteracion)
+            print(f"Else i = {iteracion} primos {primos} ")
+            iteracion += 2
+ 
+    print(primos)
+    return len(primos)
+ 
+ 
+print(contar_primos(50))
