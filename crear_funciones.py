@@ -1,3 +1,4 @@
+#Creación de funciones
 def saludar_persona(nombre):
     '''
     Esta función sirve para saludar a las personas
