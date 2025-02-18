@@ -1,3 +1,4 @@
+#Funciones con el uso de return
 def multiplicar(num1,num2):
     return num1 * num2
 
