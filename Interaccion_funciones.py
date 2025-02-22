@@ -1,3 +1,4 @@
+#Interaccion de funciones
 from random import *
 #Crear Lista Inicial
 palitos = ['-','--','---','----']
