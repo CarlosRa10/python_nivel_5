@@ -1,4 +1,6 @@
-'''Escribe una función que requiera una cantidad indefinida de
+'''
+Examen:
+Escribe una función que requiera una cantidad indefinida de
 argumentos. Lo que hará esta función es devolver True si en
 algún momento se ha ingresado al numero cero repetido dos
 veces consecutivas.
