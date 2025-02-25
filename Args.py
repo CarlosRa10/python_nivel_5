@@ -1,3 +1,4 @@
+#Argumentos indefinidos
 def suma(*args): #el args es una convencion, lo importante es el asterisco
     total = 0
     for i in args:
