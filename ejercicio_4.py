@@ -51,4 +51,4 @@ def contar_primos(num):
     return len(primos)
  
  
-print(contar_primos(50))
+print(contar_primos(10))
