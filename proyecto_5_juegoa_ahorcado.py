@@ -1,4 +1,4 @@
-#Proyecto final
+#Proyecto final número 5
 from random import choice
 
 palabras = ['venezuela','aprendisaje','informatica','universidad']
