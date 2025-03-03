@@ -1,4 +1,4 @@
-#Proyecto final número 5 - El Ahorcado
+#Proyecto final número 5 - El juego del Ahorcado
 from random import choice
 
 palabras = ['venezuela','aprendisaje','informatica','universidad']
