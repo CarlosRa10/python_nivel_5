@@ -1,3 +1,4 @@
+#Funciones dinamicas
 def chequear_3_cifras(numero):
         return numero in range(100,1000)
 suma = 282 + 548
