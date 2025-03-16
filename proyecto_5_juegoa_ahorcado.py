@@ -2,7 +2,7 @@
 #Nivel Intermedio
 from random import choice
 
-palabras = ['venezuela','aprendisaje','informatica','universidad']
+palabras = ['venezuela','aprendisaje','informatica','universidad']#Palabras del Ahorcado
 letras_correctas = []
 letras_incorrectas = []
 intentos = 6
