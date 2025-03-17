@@ -1,6 +1,6 @@
 #Proyecto final número 5 - El juego del Ahorcado
 #Nivel Intermedio
-from random import choice
+from random import choice# libreria random metodo choise
 
 palabras = ['venezuela','aprendisaje','informatica','universidad']#Palabras del Ahorcado
 letras_correctas = []
